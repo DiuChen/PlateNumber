@@ -120,7 +120,7 @@ public class PrinterActivity extends AppCompatActivity {
     public void onViewClicked() {
         List<PrintDataObject> list = new ArrayList<>();
         list.add(new PrintDataObject("哈哈哈"));
-        list.add(new PrintDataObject("哈哈哈哈哈哈哈哈哈哈哈哈"));
+        list.add(new PrintDataObject("哈哈哈哈哈哈哈哈哈哈哈"));
 
         Drawable drawable = ContextCompat.getDrawable(this, R.drawable.pic);
         Canvas canvas = new Canvas();
